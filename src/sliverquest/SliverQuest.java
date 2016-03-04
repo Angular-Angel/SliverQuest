@@ -5,9 +5,12 @@
  */
 package sliverquest;
 
+import java.io.Console;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
+import java.util.Scanner;
 
 /**
  *
@@ -67,9 +70,24 @@ public class SliverQuest {
         legendarySlivers.add("Sliver Legion");
         legendarySlivers.add("Sliver Hivelord");
         
+        Scanner sc = new Scanner(System.in);
+        sc.useDelimiter("\n");
+        while (true) {
+            String command = sc.next();
+            ReadCommand(command);
+        }
         
+    }
+    public static void ReadCommand(String command) {
+        if (command.startsWith("Spawn Slivers")) {
+            command = command.replace("Spawn Slivers: ", "");
+            generateSlivers(Integer.parseInt(command));
+        }
+    }
+    
+    public static void generateSlivers(int quantity) {
         HashMap<String, Integer> slivers = new HashMap<>();
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < quantity; i++) {
             String sliver = generateSliver();
             if (slivers.containsKey(sliver))
                 slivers.put(sliver, slivers.get(sliver) + 1);
@@ -79,7 +97,6 @@ public class SliverQuest {
         for (String s : slivers.keySet()) {
             System.out.println(s + ": " + slivers.get(s));
         }
-        
     }
     
     public static String generateSliver() {
