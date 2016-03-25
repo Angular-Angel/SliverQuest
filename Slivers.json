@@ -1,0 +1,380 @@
+[
+    {
+        "Name": "Plated",
+        "Tier": 1,
+        "Mana Cost": "W",
+        "Colors": "W",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: +0/+1."
+    },
+    {
+        "Name": "Screeching",
+        "Tier": 1,
+        "Mana Cost": "U",
+        "Colors": "U",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: Screech."
+    },
+    {
+        "Name": "Galerider",
+        "Tier": 3,
+        "Mana Cost": "U",
+        "Colors": "U",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: Flying."
+    },
+    {
+        "Name": "Winged",
+        "Tier": 2,
+        "Mana Cost": "1U",
+        "Colors": "U",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: flying."
+    },
+    {
+        "Name": "Aquatic",
+        "Tier": 1,
+        "Mana Cost": "U",
+        "Colors": "U",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: Aquatic."
+    },
+    {
+        "Name": "Amphibious",
+        "Tier": 2,
+        "Mana Cost": "2U",
+        "Colors": "U",
+        "Power": 2,
+        "Toughness": 2,
+        "Specials": "Shared: Amphibious."
+    },
+    {
+        "Name": "Gliding",
+        "Tier": 1,
+        "Mana Cost": "1U",
+        "Colors": "U",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: {1}: This creature gains flying until end of turn."
+    },
+    {
+        "Name": "Aetheric",
+        "Tier": 2,
+        "Mana Cost": "1UU",
+        "Colors": "U",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: {2}, Sacrifice this creature: target creature disappears for a day, then reappears where it left off not having noticed any time pass."
+    },
+    {
+        "Name": "Telekinetic",
+        "Tier": 3,
+        "Mana Cost": "2UU",
+        "Colors": "U",
+        "Power": 2,
+        "Toughness": 2,
+        "Specials": "Shared: Telekinesis."
+    },
+    {
+        "Name": "Mnemonic",
+        "Tier": 2,
+        "Mana Cost": "2U",
+        "Colors": "U",
+        "Power": 2,
+        "Toughness": 2,
+        "Specials": "Shared: {2}, Sacrifice this creature: +2d10 research."
+    },
+    {
+        "Name": "Synapse",
+        "Tier": 3,
+        "Mana Cost": "4U",
+        "Colors": "U",
+        "Power": 3,
+        "Toughness": 3,
+        "Specials": "Shared: Eat brains for boosts to relevant research."
+    },
+    {
+        "Name": "Synchronous",
+        "Tier": 2,
+        "Mana Cost": "4U",
+        "Colors": "U",
+        "Power": 3,
+        "Toughness": 3,
+        "Specials": "Shared: Get a free Defend action from every sliver in the hive."
+    },
+    {
+        "Name": "Diffusion",
+        "Tier": 2,
+        "Mana Cost": "1U",
+        "Colors": "U",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: magic resist 2."
+    },
+    {
+        "Name": "Chameleon",
+        "Tier": 1,
+        "Mana Cost": "1U",
+        "Colors": "U",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: {1}: Change this creatures color to a color or colors of your choice. +2 to stealth checks."
+    },
+    {
+        "Name": "Clairvoyant",
+        "Tier": 2,
+        "Mana Cost": "3U",
+        "Colors": "U",
+        "Power": 2,
+        "Toughness": 2,
+        "Specials": "Shared: {1}: View an area within a mile of this sliver for 10 minutes."
+    },
+    {
+        "Name": "Frostslink",
+        "Tier": 2,
+        "Mana Cost": "2U",
+        "Colors": "U",
+        "Power": 2,
+        "Toughness": 2,
+        "Specials": "Shared: Survive at cold temperatures. Leave almost no tracks in ice or snow."
+    },
+    {
+        "Name": "Galefrost",
+        "Tier": 3,
+        "Mana Cost": "1UUU",
+        "Colors": "U",
+        "Power": 3,
+        "Toughness": 3,
+        "Specials": "Shared: Frost Breath."
+    },
+    {
+        "Name": "Glasskite",
+        "Tier": 3,
+        "Mana Cost": "3U",
+        "Colors": "U",
+        "Power": 3,
+        "Toughness": 3,
+        "Specials": "Shared: Counter the first spell that targets this creature each turn."
+    },
+    {
+        "Name": "Phantasm",
+        "Tier": 2,
+        "Mana Cost": "1UU",
+        "Colors": "U",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: +2/+2, Flying, When this creature become the target of a spell or ability, sacrifice it."
+    },
+    {
+        "Name": "Cerebral",
+        "Tier": 3,
+        "Mana Cost": "3UU",
+        "Colors": "U",
+        "Power": 3,
+        "Toughness": 3,
+        "Specials": "Shared: +1d6 to all research actions."
+    },
+    {
+        "Name": "Mesmeric",
+        "Tier": 3,
+        "Mana Cost": "3U",
+        "Colors": "U",
+        "Power": 2,
+        "Toughness": 2,
+        "Specials": "Shared: Mesmerize."
+    },
+    {
+        "Name": "Temporal",
+        "Tier": 3,
+        "Mana Cost": "2UUUU",
+        "Colors": "U",
+        "Power": 4,
+        "Toughness": 4,
+        "Specials": "Shared: {2}, Sacrifice this creature: Timeskip, 1 Mile, 1 day."
+    },
+    {
+        "Name": "Dormant",
+        "Tier": 3,
+        "Mana Cost": "2GU",
+        "Colors": "GU",
+        "Power": 2,
+        "Toughness": 2,
+        "Specials": "Shared: Metamorphosis."
+    },
+    {
+        "Name": "Muscle",
+        "Tier": 1,
+        "Mana Cost": "1G",
+        "Colors": "G",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: +1/+1."
+    },
+    {
+        "Name": "Might",
+        "Tier": 2,
+        "Mana Cost": "4G",
+        "Colors": "G",
+        "Power": 2,
+        "Toughness": 2,
+        "Specials": "Shared: +2/+2."
+    },
+    {
+        "Name": "Megantic",
+        "Tier": 3,
+        "Mana Cost": "5G",
+        "Colors": "G",
+        "Power": 3,
+        "Toughness": 3,
+        "Specials": "Shared: +3/+3."
+    },
+    {
+        "Name": "Spinneret",
+        "Tier": 2,
+        "Mana Cost": "1G",
+        "Colors": "G",
+        "Power": 2,
+        "Toughness": 2,
+        "Specials": "Shared: 1d6 Silkweaving."
+    },
+    {
+        "Name": "Gemhide",
+        "Tier": 3,
+        "Mana Cost": "1G",
+        "Colors": "G",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: {1}, 1 Action: Add one mana of any color to your mana pool."
+    },
+    {
+        "Name": "Manaweft",
+        "Tier": 3,
+        "Mana Cost": "1G",
+        "Colors": "G",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: Channeling."
+    },
+    {
+        "Name": "Horned",
+        "Tier": 1,
+        "Mana Cost": "2G",
+        "Colors": "G",
+        "Power": 2,
+        "Toughness": 2,
+        "Specials": "Shared: Trample."
+    },
+    {
+        "Name": "Groundshaker",
+        "Tier": 1,
+        "Mana Cost": "6G",
+        "Colors": "G",
+        "Power": 5,
+        "Toughness": 5,
+        "Specials": "Shared: Trample."
+    },
+    {
+        "Name": "Fungus",
+        "Tier": 3,
+        "Mana Cost": "3G",
+        "Colors": "G",
+        "Power": 2,
+        "Toughness": 2,
+        "Specials": "Shared: fungus type, Fungal Resilience."
+    },
+    {
+        "Name": "Brood",
+        "Tier": 3,
+        "Mana Cost": "4G",
+        "Colors": "G",
+        "Power": 3,
+        "Toughness": 3,
+        "Specials": "Shared: Brood."
+    },
+    {
+        "Name": "Quick",
+        "Tier": 1,
+        "Mana Cost": "1G",
+        "Colors": "G",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: +20% to mobility."
+    },
+    {
+        "Name": "Phytosliver",
+        "Tier": 3,
+        "Mana Cost": "2GG",
+        "Colors": "G",
+        "Power": 2,
+        "Toughness": 2,
+        "Specials": "Shared: plant type, photosynthesis."
+    },
+    {
+        "Name": "Woodweaver",
+        "Tier": 3,
+        "Mana Cost": "3GG",
+        "Colors": "G",
+        "Power": 3,
+        "Toughness": 3,
+        "Specials": "Shared: 1 Action, G: 1d6 Woodweaving."
+    },
+    {
+        "Name": "Harmony",
+        "Tier": 2,
+        "Mana Cost": "1GG",
+        "Colors": "G",
+        "Power": 2,
+        "Toughness": 2,
+        "Specials": "Shared: +1d6 on green research actions."
+    },
+    {
+        "Name": "Bloom",
+        "Tier": 3,
+        "Mana Cost": "4GG",
+        "Colors": "G",
+        "Power": 3,
+        "Toughness": 3,
+        "Specials": "Shared: 2 Actions: target land produces an extra mana of any type it could produce."
+    },
+    {
+        "Name": "Pelt",
+        "Tier": 1,
+        "Mana Cost": "G",
+        "Colors": "G",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: Fur Coat."
+    },
+    {
+        "Name": "Stoneshaper",
+        "Tier": 3,
+        "Mana Cost": "4G",
+        "Colors": "G",
+        "Power": 3,
+        "Toughness": 3,
+        "Specials": "Shared: 1d6 Stoneshape."
+    },
+    {
+        "Name": "Predatory",
+        "Tier": 1,
+        "Mana Cost": "1G",
+        "Colors": "G",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: +2 to power for hunting."
+    },
+    {
+        "Name": "Hunter",
+        "Tier": 1,
+        "Mana Cost": "1R",
+        "Colors": "R",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: +1dP for hunting."
+    }
+]
