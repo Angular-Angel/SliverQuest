@@ -56,11 +56,11 @@
     {
         "Name": "Gliding",
         "Tier": 1,
-        "Mana Cost": "1U",
+        "Mana Cost": "U",
         "Colors": "U",
         "Power": 1,
         "Toughness": 1,
-        "Specials": "Shared: {1}: This creature gains flying until end of turn."
+        "Specials": "Shared: Gliding, {1}: This creature gains flying until end of turn."
     },
     {
         "Name": "Aetheric",
@@ -168,7 +168,7 @@
         "Colors": "U",
         "Power": 1,
         "Toughness": 1,
-        "Specials": "Shared: +2/+2, Flying, When this creature become the target of a spell or ability, sacrifice it."
+        "Specials": "Shared: +2/+2, Flying, and when this creature become the target of a spell or ability, sacrifice it."
     },
     {
         "Name": "Cerebral",
@@ -376,5 +376,131 @@
         "Power": 1,
         "Toughness": 1,
         "Specials": "Shared: +1dP for hunting."
+    },
+    {
+        "Name": "Reflex",
+        "Tier": 2,
+        "Mana Cost": "3G",
+        "Colors": "G",
+        "Power": 2,
+        "Toughness": 2,
+        "Specials": "Shared: Slivers are born as 1/1s. Immature slivers eat an additional food and grow by an additional +1/+1 each month."
+    },
+    {
+        "Name": "Evolution",
+        "Tier": 3,
+        "Mana Cost": "2GGGG",
+        "Colors": "G",
+        "Power": 4,
+        "Toughness": 4,
+        "Specials": "Shared: Metamorphosis. Shared, Regional: Metamorphic Control."
+    },
+    {
+        "Name": "Psionic",
+        "Tier": 2,
+        "Mana Cost": "4U",
+        "Colors": "U",
+        "Power": 2,
+        "Toughness": 2,
+        "Specials": "Shared: Psionic Blast."
+    },
+    {
+        "Name": "Saltscale",
+        "Tier": 1,
+        "Mana Cost": "U",
+        "Colors": "U",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: Can drink saltwater. Generates clean salt as a byproduct."
+    },
+    {
+        "Name": "Leaping",
+        "Tier": 1,
+        "Mana Cost": "G",
+        "Colors": "G",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: Reach, +10% Mobility on land."
+    },
+    {
+        "Name": "Prescient",
+        "Tier": 2,
+        "Mana Cost": "UUUU",
+        "Colors": "U",
+        "Power": 2,
+        "Toughness": 2,
+        "Specials": "Shared: {2}, Sacrifice this sliver: Gain a precognitive vision. See magic for more details."
+    },
+    {
+        "Name": "Hydrokinetic",
+        "Tier": 3,
+        "Mana Cost": "1UU",
+        "Colors": "U",
+        "Power": 2,
+        "Toughness": 2,
+        "Specials": "Shared: Hydrokinesis."
+    },
+    {
+        "Name": "Joiner",
+        "Tier": 2,
+        "Mana Cost": "1G",
+        "Colors": "G",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared, Regional: 1 Action: Target mana well within a mile of this sliver may tap for any color of mana until end of turn."
+    },
+    {
+        "Name": "Discerning",
+        "Tier": 1,
+        "Mana Cost": "U",
+        "Colors": "U",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: Slivers gain signifantly increased eyesight. +1 to hunting power when flying."
+    },
+    {
+        "Name": "Nurturer",
+        "Tier": 2,
+        "Mana Cost": "G",
+        "Colors": "G",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: {G}, 1 action: Target sliver heals 1 additional health this turn."
+    },
+    {
+        "Name": "Virulent",
+        "Tier": 1,
+        "Mana Cost": "G",
+        "Colors": "G",
+        "Power": 1,
+        "Toughness": 1,
+        "Specials": "Shared: Poison 1."
+    },
+    {
+        "Name": "Nullification",
+        "Tier": 3,
+        "Mana Cost": "5U",
+        "Colors": "U",
+        "Power": 4,
+        "Toughness": 4,
+        "Specials": "Shared: {1}: This creature loses and cannot gain target ability until end of turn."
+    },
+    {
+        "Name": "Legion",
+        "Tier": 4,
+        "Mana Cost": "WUBRG",
+        "Colors": "WUBRG",
+        "Power": 7,
+        "Toughness": 7,
+        "Specials": "Lead Research, Shared: +1/+1 per other sliver."
+    },
+    {
+        "Name": "Overlord",
+        "Tier": 4,
+        "Mana Cost": "WUBRG",
+        "Colors": "WUBRG",
+        "Power": 7,
+        "Toughness": 7,
+        "Specials": "Lead Research, {3}: Target thrum egg or immature thrum becomes special. You may pay an additional {0}, {1}, or {2} to make that sliver be common, uncommon, or rare. You may then pay a specific specials mana cost to make that sliver become that special. {3}: Gain control of target sliver."
     }
 ]

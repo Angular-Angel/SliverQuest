@@ -89,6 +89,23 @@ public class SliverQuest {
             command = command.replace("Spawn Slivers: ", "");
             generateSlivers(Integer.parseInt(command.split(" ")[0]), command.split(" ")[1]);
         } else if (command.startsWith("Exit")) System.exit(0);
+        else if (command.startsWith("Add Sliver: ")) {
+            command = command.replace("Add Sliver: ", "");
+            switch (command.split(" ")[0]) {
+                case "1":
+                    commonSpecials.add(command.split(" ")[1]);
+                    break;
+                case "2":
+                    uncommonSpecials.add(command.split(" ")[1]);
+                    break;
+                case "3":
+                    rareSpecials.add(command.split(" ")[1]);
+                    break;
+                case "4":
+                    legendarySlivers.add(command.split(" ")[1]);
+                    break;
+            }
+        }
         else System.out.println(command);
     }
     
@@ -148,11 +165,6 @@ public class SliverQuest {
             }
         }
         
-        System.out.println(commonSpecials.size());
-        System.out.println(uncommonSpecials.size());
-        System.out.println(rareSpecials.size());
-        System.out.println(legendarySlivers.size());
-        
         
         HashMap<String, Integer> slivers = new HashMap<>();
         for (int i = 0; i < quantity; i++) {
@@ -165,16 +177,21 @@ public class SliverQuest {
         for (String s : slivers.keySet()) {
             System.out.println(s + ": " + slivers.get(s));
         }
+        
+        commonSpecials.clear();
+        uncommonSpecials.clear();
+        rareSpecials.clear();
+        legendarySlivers.clear();
     }
     
     public static String generateSliver() {
         int rand = random.nextInt(100);
-        if (rand > 90) {
+        if (rand >= 90) {
             rand = random.nextInt(100);
-            if (rand == 99 && legendarySlivers.size() > 0) return legendarySlivers.get(random.nextInt(legendarySlivers.size()));
-            else if (rand < 90 && rareSpecials.size() > 0) return rareSpecials.get(random.nextInt(rareSpecials.size()));
-            else if (rand < 60 && uncommonSpecials.size() > 0) return uncommonSpecials.get(random.nextInt(uncommonSpecials.size()));
-            else if (commonSpecials.size()> 0) return commonSpecials.get(random.nextInt(commonSpecials.size()));
+            if (rand == 99 && legendarySlivers.size() > 0) return "Sliver " + legendarySlivers.get(random.nextInt(legendarySlivers.size()));
+            else if (rand > 90 && rareSpecials.size() > 0) return rareSpecials.get(random.nextInt(rareSpecials.size())) + " Sliver";
+            else if (rand > 60 && uncommonSpecials.size() > 0) return uncommonSpecials.get(random.nextInt(uncommonSpecials.size())) + " Sliver";
+            else if (commonSpecials.size() > 0) return commonSpecials.get(random.nextInt(commonSpecials.size())) + " Sliver";
         }
         return "Sliver";
     }
